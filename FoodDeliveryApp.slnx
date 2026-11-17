@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FoodDelivery.Core/FoodDelivery.Core.csproj" />
+  <Project Path="FoodDelivery.Tests/FoodDelivery.Tests.csproj" />
+</Solution>

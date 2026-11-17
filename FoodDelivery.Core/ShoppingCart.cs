@@ -21,6 +21,6 @@ public class ShoppingCart
 
         decimal sum = _items.Sum(d => d.Price);
         decimal discountAmount = sum * (discountPercent / 100m);
-        return sum + discountAmount;
+        return sum - discountAmount;
     }
 }
